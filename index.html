@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="display">
+            <p class="timerDisplay" id="timerHrs">00</p> :
+            <p class="timerDisplay" id="timerMins">00</p> :
+            <p class="timerDisplay" id="timerSec">00</p> :
+            <p class="timerDisplay" id="timerMilisec">00</p>
+        </div>
+
+        <div class="buttons">
+            <button type="button" id="startBtn" onclick="startStop()">Start</button>
+            <button type="button" id="resetBtn" onclick="reset()">Reset</button>
+            <button type="button" id="lapBtn" onclick="lap()">Lap</button>
+        </div>
+
+        <h1>Laps:</h1>
+
+        <div id="laps">
+            <hr>
+            <p id="lapRecord">
+                
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
